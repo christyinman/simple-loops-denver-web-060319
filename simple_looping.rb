@@ -5,7 +5,7 @@ def loop_iterator(number_of_times)
   counter = 0
   loop do(x)
     puts phrase
-    counter =+ 1
+    counter += 1
     if counter == x
       break
   end
